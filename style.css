@@ -285,7 +285,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    .aboutMe {
+    .aboutMe p {
         width: 300px;
     }
 }
