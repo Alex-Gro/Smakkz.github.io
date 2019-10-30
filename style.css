@@ -284,11 +284,7 @@ header {
     margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .aboutMe p {
-        width: 300px;
-    }
-}
+
 
 /* .skillLogos {
     display: flex;
