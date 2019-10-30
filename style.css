@@ -284,7 +284,13 @@ header {
     margin: 20px;
 }
 
-.skillLogos {
+@media screen and (max-width: 768px) {
+    .aboutMe {
+        width: 300px;
+    }
+}
+
+/* .skillLogos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,7 +313,7 @@ header {
     height: 6em;
     padding: 5px;
 }
-
+ */
 
 /* .aboutMe p:first-of-type::after {
     background-image: url(Images/laptop-code-solid.png);
