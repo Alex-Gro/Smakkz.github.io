@@ -280,6 +280,34 @@ header {
     position: relative;
 }
 
+.aboutMe h3 {
+    margin: 20px;
+}
+
+.skillLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillLogos img {
+    margin: 10px 5px;
+}
+
+.skillBorder {
+    color: var(--mainGreen);
+    line-height: 3.75rem;
+    font-size: 1.4em;
+    margin: 10px 5px 0.75rem 5px;
+    text-align: center;
+    border: 4px solid var(--mainGray);
+    border-radius: 15%;
+    width: 6em;
+    height: 6em;
+    padding: 5px;
+}
+
 
 /* .aboutMe p:first-of-type::after {
     background-image: url(Images/laptop-code-solid.png);
